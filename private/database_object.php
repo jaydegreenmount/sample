@@ -1,11 +1,11 @@
 <?php
 
 require_once('database.php');
-// do i really need to call the file i'm in?? :S require_once('database_object2.php');
+
 
 class DatabaseObject{
 	
-	// we will change all self to static so it is User object not a DatabaseObject
+	//will change all self to static so it is User object not a DatabaseObject
   public static function find_all_customers() {
 		return static::find_by_sql("SELECT * FROM ".static::$table_name);
   }
