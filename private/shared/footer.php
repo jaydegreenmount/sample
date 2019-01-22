@@ -1,5 +1,5 @@
 <footer>
-	&copy;<?php echo date('Y'); ?> Monster Fight Website
+	&copy;<?php echo date('Y'); ?> Game Studio Website
 </footer>
 
 </body>
